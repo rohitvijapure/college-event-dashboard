@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import scraperService from '../services/scraper/scraper.service';
-import prisma from './config/db';
+import prisma from '../config/db';
 import { formatInTimeZone } from 'date-fns-tz';
 
 export const eventController = {
