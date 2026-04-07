@@ -1,6 +1,6 @@
 import { chromium } from 'playwright';
 import { AIResponse } from '../../types/ai';
-import LLMService from './ai/llm.service';
+import LLMService from '../ai/llm.service';
 
 class ScraperService {
   async scrapeCollegeEvents(url: string): Promise<AIResponse> {
