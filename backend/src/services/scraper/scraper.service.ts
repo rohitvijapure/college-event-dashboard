@@ -1,5 +1,5 @@
 import { chromium } from 'playwright';
-import { AIResponse } from '../../types/ai';
+import type { AIResponse } from '../../types/ai/index';
 import LLMService from '../ai/llm.service';
 
 class ScraperService {
