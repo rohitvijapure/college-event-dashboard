@@ -1,4 +1,6 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
+type Request = express.Request;
+type Response = express.Response;
 
 export const authController = {
   login: (req: Request, res: Response) => {
