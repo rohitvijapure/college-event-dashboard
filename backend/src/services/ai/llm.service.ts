@@ -1,7 +1,7 @@
 import OpenAI from 'openai';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import axios from 'axios';
-import { LLMProvider, AIResponse } from '../../types/ai';
+import type { LLMProvider, AIResponse } from '../../types/ai/index';
 
 export interface LLMOptions {
   provider: LLMProvider;
