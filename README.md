@@ -48,7 +48,7 @@ GEMINI_API_KEY="your_gemini_key"
 OLLAMA_BASE_URL="http://localhost:11434"
 FRONTEND_URL="http://localhost:5173"
 SESSION_SECRET="your_random_secret"
-ADMIN_EMAIL="rohitvijapure@gmail.com"
+ADMIN_EMAIL="admin@example.com"
 \`\`\`
 
 Initialize the database:
