@@ -1,5 +1,5 @@
 import { google } from 'googleapis';
-import prisma from '../config/db';
+import prisma from '../../config/db';
 
 class CalendarService {
   async syncEvent(userId: string, eventId: string) {
